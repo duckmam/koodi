@@ -1,8 +1,21 @@
-int kanta = 0;
-int korkeus = 0;
-cout << "Anna suorakaiteen kanta: ";
-cin >> kanta;
-cout << endl;
-cout << "Anna suorakaiteen korkeus: ";
-cin >> korkeus;
-cout << endl;
+#include "iostream"
+
+using namespace std;
+
+
+int main(){
+
+        int i,num;
+        cout << "Anna numero:";
+        cin >> num;
+        cout << "/nTestataan minka numeron laitoit:" << endl;
+        cout << "Tulostetaan kaikki numerot ennen numeroasi" <<endl << endl;
+
+        for(i=0;i<num;i++){
+
+        cout << i << endl;
+
+        }
+
+
+}
